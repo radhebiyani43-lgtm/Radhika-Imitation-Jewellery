@@ -1,0 +1,129 @@
+/* =========================
+   TABLET DESIGN
+========================= */
+
+@media(max-width:900px){
+
+    .product-container{
+
+        grid-template-columns: repeat(2,1fr);
+
+    }
+
+
+    .footer-container{
+
+        flex-direction:column;
+
+    }
+
+}
+
+
+
+/* =========================
+   MOBILE DESIGN
+========================= */
+
+@media(max-width:600px){
+
+
+header{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+
+.logo h2{
+
+    font-size:20px;
+
+}
+
+
+
+nav ul{
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+
+
+.product-container{
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+.product-card{
+
+    width:90%;
+
+    margin:auto;
+
+}
+
+
+
+.hero h1{
+
+    font-size:28px;
+
+}
+
+
+
+.hero p{
+
+    font-size:15px;
+
+}
+
+
+
+/* Cart Table */
+
+table{
+
+    font-size:12px;
+
+}
+
+
+
+.cart-page{
+
+    padding:20px 5px;
+
+}
+
+
+
+/* Checkout */
+
+.checkout{
+
+    width:90%;
+
+    margin:auto;
+
+}
+
+
+.checkout input,
+.checkout textarea{
+
+    width:100%;
+
+}
+
+
+}
